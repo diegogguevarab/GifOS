@@ -1,0 +1,255 @@
+#search_btn {
+  text-align: center;
+  margin: 0.5rem;
+  width: 10%;
+  height: 2.5rem;
+}
+
+#search_ico {
+  margin-right: 0.5rem;
+}
+
+#recomended_gifs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+#results_gifs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+#window-upload {
+  margin: 2rem 20rem;
+}
+
+#section-create {
+  padding: 2.5rem;
+
+  p, hgroup {
+    color: black;
+  }
+}
+
+#section-record {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  .right-bottom-btn {
+    padding-top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+    button {
+      margin: 0;
+    }
+  }
+
+  .search_text {
+    color: $color_label_text;
+    padding: 0.5rem;
+    width: 8rem;
+    height: 2rem;
+    background: white;
+  }
+
+  .recording-bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  #btn_camera, #btn_rec {
+    width: 2.5rem;
+    line-height: 0;
+  }
+
+  #btn_stop, #btn_rec {
+    color: white;
+    background: $color_button_stop;
+    border: 1px solid $color_button_border;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 white;
+  }
+
+  p {
+    color: rgba(17, 0, 56, 0.64);
+  }
+
+  hgroup {
+    color: $color_label_text;
+  }
+}
+
+#section-outro {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 1.5rem;
+
+  hgroup {
+    color: $color_label_text;
+  }
+
+  .left-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+  }
+
+  .right-container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    padding: 0.5rem;
+
+    button {
+      margin: 0.5rem 0 0;
+    }
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+#logo {
+  width: 90px;
+  height: 48px;
+}
+
+#arrow {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
+#btn_dropdown {
+  margin: 0;
+  width: 2rem;
+
+  img {
+    margin: 0;
+  }
+}
+
+#option_day {
+  color: $color_text;
+  margin: 0 0 0.5rem 0;
+  background: $color_inactive_option;
+  border: 1px solid $color_border_inactive_option;
+  box-shadow: inset -1px -1px 0 0 $color_window_border, inset 1px 1px 0 0 white;
+
+  &.option-active {
+    background: $color_background;
+    border: 1px solid $color_border_style;
+    box-shadow: inset -1px -1px 0 0 $color_label_shadow, inset 1px 1px 0 0 white;
+  }
+}
+
+#option_dark {
+  background: $color_inactive_option;
+  border: 1px solid $color_border_inactive_option;
+  box-shadow: inset -1px -1px 0 0 $color_window_border, inset 1px 1px 0 0 white;
+  margin: 0;
+
+  &.option-active {
+    background: #2E32FB;
+    border: 1px solid rgba(51, 53, 143, 0.20);
+    box-shadow: inset -1px -1px 0 0 $color_label_shadow, inset 1px 1px 0 0 white;
+  }
+
+  .left-nav-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+}
+
+#drop_suge {
+  width: 100%;
+}
+
+#nav_btns {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    margin-left: 1rem;
+  }
+}
+
+#style_drop {
+  position: relative;
+  display: flex;
+}
+
+#sugg_drop {
+  position: relative;
+  display: flex;
+  width: 85%;
+}
+
+#change_btn {
+  margin: 0;
+}
+
+#create_btn {
+  margin-right: 1rem;
+}
+
+#page_band {
+  font-size: 12px;
+  margin: 0;
+  width: 100%;
+  box-shadow: 0 1px 0 0 $color_text;
+  padding: 0.2rem 0.5rem;
+}
+
+#btn_forward {
+  line-height: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#my_gifs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 1rem 0;
+
+  .gif {
+    flex: none;
+    max-width: 30rem;
+    min-width: 15rem;
+  }
+}
+
+#uploading-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 35rem;
+  height: 26.375rem;
+  text-align: center;
+  margin: 0 6rem 0.5rem;
+  background: white;
+  border: 1px solid $color_video_border;
+  box-shadow: inset -2px -2px 0 0 $color_video_shadow, inset 2px 2px 0 0 black;
+}
+
+#outro_div {
+  padding: 0 1.5rem 1.5rem;
+}

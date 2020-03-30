@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53e54927-5e44-4cc3-aab4-1fddf13ff01d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZMBuLQo477yU0zvBdPf16jlo42" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Projects\Acamica\Proyectos\GifOS\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Projects\Acamica\Proyectos\GifOS" />
+      <recent name="C:\Users\Usuario\Projects\Acamica\Proyectos\GifOS\styles" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53e54927-5e44-4cc3-aab4-1fddf13ff01d" name="Default Changelist" comment="" />
+      <created>1584639303654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584639303654</updated>
+      <workItem from="1584639306723" duration="55456000" />
+      <workItem from="1585058511997" duration="16978000" />
+      <workItem from="1585101576098" duration="386000" />
+      <workItem from="1585180068165" duration="14355000" />
+      <workItem from="1585229894491" duration="54453000" />
+      <workItem from="1585496691587" duration="722000" />
+      <workItem from="1585497533314" duration="45753000" />
+      <workItem from="1585599702357" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584668621664">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.86.1440.870@0.0.1920.1050" timestamp="1584668621664" />
+    <state x="739" y="250" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584640615796">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="250" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050/1920.86.1440.870@0.0.1920.1050" timestamp="1584640615796" />
+    <state x="594" y="304" width="731" height="628" key="EditFileWatcherDialog" timestamp="1585501088713">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="594" y="304" width="731" height="628" key="EditFileWatcherDialog/0.0.1920.1050/1920.86.1440.870@0.0.1920.1050" timestamp="1585501088713" />
+    <state x="739" y="300" key="FileChooserDialogImpl" timestamp="1584640610566">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="300" key="FileChooserDialogImpl/0.0.1920.1050/1920.86.1440.870@0.0.1920.1050" timestamp="1584640610566" />
+    <state x="461" y="168" key="SettingsEditor" timestamp="1585501090489">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.86.1440.870@0.0.1920.1050" timestamp="1585501090489" />
+    <state x="591" y="222" width="737" height="606" key="find.popup" timestamp="1585540526154">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="591" y="222" width="737" height="606" key="find.popup/0.0.1920.1050/1920.86.1440.870@0.0.1920.1050" timestamp="1585540526154" />
+    <state x="701" y="157" key="refactoring.ChangeSignatureDialog" timestamp="1585246946780">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="701" y="157" key="refactoring.ChangeSignatureDialog/0.0.1920.1050/1920.86.1440.870@0.0.1920.1050" timestamp="1585246946780" />
+  </component>
+</project>

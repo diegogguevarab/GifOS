@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+$color_background: #110038;
+$color_primary: #2e32fb;
+$color_secondary: #ee3efe;
+$color_label: #fffafe;
+$color_label_text: $color_background;
+$color_label_border: #2e32fb;
+$color_label_shadow: #e6dce4;
+$color_label_inset: $color_background;
+$color_text: white;
+$color_shadow: #a72cb3;
+$color_window_background: #B4B4B4;
+$color_window_border: #5c5c5c;
+$color_src_border: #979797;
+$color_btnpressed: #ce36db;
+$color_button_border: $color_background;
+$color_btn-more_border: #4c2f99;
+$color_btn-more_shadow: #2124b3;
+$color_border_style: #cca6c9;
+$color_inactive_option: #cccccc;
+$color_btn_disable: #b4b4b4;
+$color_btn_disable_shadow: #b4b4b4;
+$color_btn_disable_text: #8f8f8f;
+$color_border_inactive_option: #808080;
+$color_video_border: #979797;
+$color_video_shadow: #e6e6e6;
+$color_video_inset: white;
+$color_button_stop: #ff6161;
+$color_button_stop_shadow: #993a3a;
+$color_btn_secondary_text: white;
+$color_btn_secondary: $color_background;
+$color_btn_secondary_border: $color_btn_disable;
+$color_btn_secondary_shadow: $color_window_border;
+$color_btn_secondary_inset: #fff4fd;
+$color_btn_secondary_hover: $color_background;
+$color_bar_inactive: #999999;
+$color_bar_active: #ee3efe;
+@import "styles/tags";
+@import "styles/classes";
+@import "styles/ids";

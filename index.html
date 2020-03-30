@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifOS</title>
+    <link id="page_style" rel="stylesheet" href="main_day.min.css">
+</head>
+
+<body>
+<p id="page_band" class="header-bar">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de
+    visitas:
+    12.765.803</p>
+<nav>
+    <img id="logo" src="images/gifOF_logo.png" alt="logo" onclick="location.href='index.html'">
+    <div id="nav_btns">
+        <button id="create_btn" onclick="location.href='upload.html'">Crear Guifos</button>
+        <div id="style_drop">
+            <button id="change_btn" onclick="activateDrop()">Elegir tema</button>
+            <button id="btn_dropdown" onclick="activateDrop()"><img id="ico_drop" src="images/dropdown.svg"
+                                                                    alt="dropdown"></button>
+            <div class="dropdown" id="drop_styles">
+                <button class="menu-option option-active" onclick="dayStyle()" id="option_day"><span
+                        class="underline">S</span>ailor
+                    Day
+                </button>
+                <button class="menu-option" onclick="darkStyle()" id="option_dark"><span class="underline">S</span>ailor
+                    Night
+                </button>
+            </div>
+        </div>
+        <p class="link" onclick="myGifs()"><span class="underline">M</span>is Guifos</p>
+    </div>
+</nav>
+<header class="window">
+    <b class="header-bar">Buscar</b>
+    <div id="search_form">
+        <div id="sugg_drop">
+            <input onkeyup="suggestions()"
+                   placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"
+                   id="search_query" class="search_text" type="text">
+            <div class="dropdown" id="drop_suge">
+                <button class="btn-sugerencia" id="sug1"></button>
+                <button class="btn-sugerencia" id="sug2"></button>
+                <button class="btn-sugerencia" id="sug3"></button>
+            </div>
+        </div>
+        <button id="search_btn" class="btn-disable" disabled><img id="search_ico" src="images/lupa_inactive.svg"
+                                                                  alt="lupa">Buscar
+        </button>
+
+    </div>
+</header>
+<div id="recomendations" class="gif-section">
+    <p id="reco_label" class="section_label">Hoy te sugerimos:</p>
+    <section id="recomended_gifs"></section>
+</div>
+<div class="gif-section">
+    <p id="res_label" class="section_label">Tendencias:</p>
+    <section id="results_gifs"></section>
+</div>
+<script src="scripts/jquery-3.4.1.min.js"></script>
+<script src="scripts/index.js"></script>
+</body>
+
+</html>

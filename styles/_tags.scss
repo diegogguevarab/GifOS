@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $color_background;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 5rem;
+}
+
+header {
+  margin: 2rem 5rem;
+}
+
+p,
+b {
+  color: white;
+}
+
+button {
+  position: relative;
+  width: 8rem;
+  height: 2rem;
+  margin-left: 1rem;
+  color: $color_text;
+  background-color: $color_secondary;
+  border: 1px solid $color_button_border;
+  box-shadow: inset -1px -1px 0 0 $color_shadow, inset 1px 1px 0 0 white;
+
+  &:hover {
+    background-color: $color_btnpressed;
+    border: 1px solid $color_text;
+
+    &:after {
+      content: " ";
+      top: 2px;
+      left: 2px;
+      right: 2px;
+      bottom: 2px;
+      cursor: pointer;
+      position: absolute;
+      border: 1px dashed $color_text;
+    }
+  }
+}
+
+video {
+  padding: 3px;
+  background: white;
+  border: 1px solid $color_video_border;
+  box-shadow: inset -2px -2px 0 0 $color_video_shadow, inset 2px 2px 0 0 $color_video_inset;
+}
